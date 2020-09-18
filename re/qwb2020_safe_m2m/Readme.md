@@ -32,7 +32,7 @@ bytearray:将字符串、数组等转换为bytearray，因为一些一些加密�
 
 4.要会mutiprocessing.pool多进程跑，附一个demo:  
 
-'''python3
+```python3
 #!/bin/python3
 from z3 import *
 from Crypto.Util.number import long_to_bytes, bytes_to_long
@@ -47,4 +47,4 @@ if __name__ == '__main__':
     with Pool(12) as p:
         p.map(run, [(i) for i in range(12)])
 
-'''
+```
