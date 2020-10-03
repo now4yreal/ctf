@@ -23,4 +23,11 @@ buffered_vfprintf中调用的函数指针是从下面取来的
 
 ror是循环右移，fs:[0x30]是teb的某个值，栈溢出可以覆盖。  
 
-思路就是先泄露fs:[0x30]，然后改为fs:[0x30]^原来的值^one，就可以get_shell
+思路就是先泄露fs:[0x30]，然后改为fs:[0x30]^原来的值^one，就可以get_shell  
+
+另外libc下载地址：  
+
+```
+https://libc.blukat.me/
+http://archive.ubuntu.com/ubuntu/pool/main/g/glibc/
+```
