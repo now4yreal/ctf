@@ -1,2 +1,2 @@
 # ctf
-blabla
+ctf pwn games I finished
